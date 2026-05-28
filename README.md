@@ -17,6 +17,9 @@ O FreteRun utiliza geolocalização, rastreamento em tempo real e pagamento inte
 - Formulário de e-mail e senha
 - Link para cadastro
 
+"./images/WhatsApp Image 2026-05-28 at 20.02.26.jpeg"
+"./images/WhatsApp Image 2026-05-28 at 20.03.05.jpeg"
+
 ### Tela 2A — Dashboard do Cliente
 - Seleção do tipo de frete (Mudança, Carga, Pequenos, Especial)
 - Campos de origem e destino
