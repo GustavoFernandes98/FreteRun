@@ -1,5 +1,6 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "freterun",
     "slug": "freterun",
     "version": "1.0.0",
@@ -8,11 +9,26 @@
     "scheme": "freterun",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+=======
+    "name": "freterun-projeto",
+    "slug": "snack-c14e2593-a0a8-44c3-ac92-e0cbbaeaf524",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+>>>>>>> ee0af424613f126b2ceb131531ed26ab818bcf46
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
+<<<<<<< HEAD
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
@@ -46,3 +62,15 @@
     }
   }
 }
+=======
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
+>>>>>>> ee0af424613f126b2ceb131531ed26ab818bcf46

@@ -10,8 +10,12 @@
   },
   "include": [
     "**/*.ts",
+<<<<<<< HEAD
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
+=======
+    "**/*.tsx"
+>>>>>>> ee0af424613f126b2ceb131531ed26ab818bcf46
   ]
 }
