@@ -1,50 +1,140 @@
-# Welcome to your Expo app 👋
+# 🚛 FreteRun
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile desenvolvido em **React Native com Expo**, especialmente para iPhone, que conecta **clientes e motoristas** para realização de fretes e mudanças de forma digital, segura e eficiente.
 
-## Get started
+---
 
-1. Install dependencies
+## 📸 Telas do aplicativo
 
-   ```bash
-   npm install
-   ```
+### Landing Page
+![Landing Hero](./screenshots/tela-landing-hero.png)
 
-2. Start the app
+### Como Funciona
+![Como Funciona](./screenshots/tela-como-funciona.png)
 
-   ```bash
-   npx expo start
-   ```
+### Vantagens
+![Vantagens](./screenshots/tela-vantagens.png)
 
-In the output, you'll find options to open the app in a
+### Cadastro — Cliente
+![Cadastro Cliente](./screenshots/tela-cadastro-cliente.png)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Cadastro — Motorista
+![Cadastro Motorista](./screenshots/tela-cadastro-motorista-1.png)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Dashboard do Cliente
+![Dashboard Cliente](./screenshots/tela-cliente-dashboard.png)
 
-## Get a fresh project
+### Chat com Motorista
+![Chat](./screenshots/tela-chat.png)
 
-When you're ready, run:
+---
 
+## ✨ Funcionalidades
+
+### 🏠 Landing Page
+- Navbar com logo e botão Entrar
+- Hero "Seu frete sob demanda em minutos"
+- Seções Como funciona e Vantagens
+- Botões Solicitar agora e Quero ser motorista
+
+### 📝 Cadastro
+- Toggle Sou cliente / Sou motorista
+- Campos: Nome, Telefone, E-mail, Senha
+- Motorista: Tipo de veículo, Placa, Documentos (RG e CNH)
+- Continuar com Google
+
+### 👤 Login
+- Seleção de perfil Cliente/Motorista
+- 5 usuários de teste com chips de atalho
+- Validação de e-mail e senha
+
+### 📦 Dashboard do Cliente
+- Tipo de frete com valor estimado
+- Campos de origem e destino
+- Solicitar motorista
+- Chat com motorista
+
+### 🚛 Acompanhar Frete
+- Rastreamento em tempo real simulado (6 etapas)
+- Card do motorista com nome, veículo e placa
+- Cancelar frete e avaliar motorista com estrelas
+
+### 🚛 Dashboard do Motorista
+- Toggle Online/Offline
+- Resumo do dia (corridas, ganhos, avaliação, km)
+- Abas: Fretes disponíveis / Ganhos do dia
+- Chat com cliente
+
+---
+
+## 👥 Usuários de teste
+
+| Nome | E-mail | Perfil | Senha |
+|---|---|---|---|
+| João Silva | joao@email.com | Cliente | 123456 |
+| Maria Oliveira | maria@email.com | Cliente | 123456 |
+| Ana Costa | ana@email.com | Cliente | 123456 |
+| Carlos Santos | carlos@email.com | Motorista | 123456 |
+| Pedro Alves | pedro@email.com | Motorista | 123456 |
+
+---
+
+## 🚀 Como executar
+
+### ✅ Via Expo Snack (recomendado — sem instalação)
+
+1. Acesse 👉 **https://snack.expo.dev**
+2. Apague o conteúdo do `App.js` no editor
+3. Cole o conteúdo do arquivo `App.js` deste repositório
+4. Clique em **Save**
+5. No canto direito clique em **"My Device"**
+6. Escaneie o QR Code com o **Expo Go** no iPhone
+7. Ou clique em **"Web"** para ver direto no navegador
+
+### Via VS Code
 ```bash
-npm run reset-project
+npm install
+npx expo start --tunnel --clear
+```
+Escaneie o QR Code com o **Expo Go** no iPhone.
+
+---
+
+## 🗂️ Estrutura do projeto
+
+```
+FreteRun/
+├── App.js                 ← Código principal
+├── index.js               ← Entry point
+├── app.json
+├── package.json
+├── babel.config.js
+├── screenshots/           ← Prints das telas
+│   ├── tela-landing-hero.png
+│   ├── tela-como-funciona.png
+│   ├── tela-vantagens.png
+│   ├── tela-cadastro-cliente.png
+│   ├── tela-cadastro-motorista-1.png
+│   ├── tela-cadastro-motorista-2.png
+│   ├── tela-cliente-dashboard.png
+│   └── tela-chat.png
+└── assets/
+    └── images/
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🎨 Design
 
-To learn more about developing your project with Expo, look at the following resources:
+- Tema escuro com fundo `#0A0F1E`
+- Cor primária verde `#16A34A`
+- Ícones via `@expo/vector-icons` (Ionicons)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 👨‍💻 Tecnologias
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- React Native
+- Expo SDK 54
+- JavaScript
+- @expo/vector-icons
