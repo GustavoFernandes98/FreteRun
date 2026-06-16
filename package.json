@@ -1,7 +1,12 @@
 {
+<<<<<<< HEAD
   "name": "freterun",
   "version": "1.0.0",
  "main": "node_modules/expo/AppEntry.js",
+=======
+  "license": "0BSD",
+  "main": "index.js",
+>>>>>>> ab32ceb1a512c9bef4a98ec355acdc17f63ada1c
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -10,6 +15,7 @@
   },
   "dependencies": {
     "expo": "~54.0.35",
+<<<<<<< HEAD
     "expo-router": "~6.0.13",
 
     "react": "19.1.0",
@@ -34,3 +40,17 @@
   },
   "private": true
 }
+=======
+    "expo-status-bar": "~3.0.9",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-paper": "4.9.2",
+    "@expo/vector-icons": "^15.0.3"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "typescript": "~5.9.2"
+  }
+}
+>>>>>>> ab32ceb1a512c9bef4a98ec355acdc17f63ada1c

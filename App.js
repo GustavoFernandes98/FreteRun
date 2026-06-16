@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import {
   View, Text, TextInput, TouchableOpacity, StyleSheet,
@@ -842,10 +843,30 @@ export default function App() {
       {tela === 'cliente'   && <ClienteDash  usuario={usuario} ir={ir} />}
       {tela === 'motorista' && <MotoristaDash usuario={usuario} ir={ir} />}
       {tela === 'rastreio'  && <Rastreio  frete={frete} usuario={usuario} ir={ir} />}
+=======
+import { StyleSheet, Text, View } from 'react-native';
+
+// You can import supported modules from npm
+import { Card } from 'react-native-paper';
+
+// or any files within the Snack
+import AssetExample from './components/AssetExample';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.paragraph}>
+        Change code in the editor and watch it change on your phone! Save to get a shareable url.
+      </Text>
+      <Card>
+        <AssetExample />
+      </Card>
+>>>>>>> ab32ceb1a512c9bef4a98ec355acdc17f63ada1c
     </View>
   );
 }
 
+<<<<<<< HEAD
 // ─── ESTILOS ──────────────────────────────────────────────
 const s = StyleSheet.create({
   passo:       { flexDirection:'row', alignItems:'center', gap:12, backgroundColor:COLORS.card, borderRadius:14, borderWidth:1, borderColor:COLORS.border, padding:14, marginBottom:10 },
@@ -912,4 +933,19 @@ const s = StyleSheet.create({
   tagTxt:      { fontSize:9, color:COLORS.green, fontWeight:'600' },
   btnChat:     { flex:1, borderWidth:1, borderColor:'#3B82F630', borderRadius:8, height:40, flexDirection:'row', alignItems:'center', justifyContent:'center', gap:4, backgroundColor:'#3B82F610' },
   ganhoIcon:   { width:34, height:34, borderRadius:17, backgroundColor:'#16A34A15', alignItems:'center', justifyContent:'center' },
+=======
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    backgroundColor: '#ecf0f1',
+    padding: 8,
+  },
+  paragraph: {
+    margin: 24,
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+>>>>>>> ab32ceb1a512c9bef4a98ec355acdc17f63ada1c
 });

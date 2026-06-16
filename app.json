@@ -1,5 +1,6 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "FreteRun",
     "slug": "freterun",
     "version": "1.0.0",
@@ -16,3 +17,32 @@
     }
   }
 }
+=======
+    "name": "freterun-projeto",
+    "slug": "snack-c14e2593-a0a8-44c3-ac92-e0cbbaeaf524",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
+>>>>>>> ab32ceb1a512c9bef4a98ec355acdc17f63ada1c
